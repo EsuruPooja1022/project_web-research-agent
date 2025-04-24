@@ -12,7 +12,7 @@ A Streamlit-powered web research assistant that searches the internet and return
 
 ## 📸 Demo Screenshot
 
-![Web Research Agent](https://github.com/EsuruPooja1022/project_web-research-agent/assets/YOUR_SCREENSHOT)
+![Web Research Agent](https://github.com/EsuruPooja1022/project_web-research-agent/assets/![WhatsApp Image 2025-04-24 at 1 04 01 PM](https://github.com/user-attachments/assets/41b8b82b-48bb-4c13-960a-e2b9b7c91636))
 
 ---
 
@@ -29,7 +29,7 @@ A Streamlit-powered web research assistant that searches the internet and return
 
 Below is the high-level architecture of the Web Research Agent:
 
-![Architecture Diagram](path/to/your/architecture_diagram.png)
+![Architecture Diagram](![ChatGPT Image Apr 24, 2025, 01_31_08 PM (1)](https://github.com/user-attachments/assets/ce143976-6466-4fae-a191-55cc963b7e61))
 
 - **Frontend (Streamlit)**: User interface for input and displaying results.
 - **Backend (Python)**: Handles the web search, scraping, and summarization logic.
@@ -47,4 +47,3 @@ Below is the high-level architecture of the Web Research Agent:
    git clone https://github.com/EsuruPooja1022/project_web-research-agent.git
    cd project_web-research-agent
 
-![WhatsApp Image 2025-04-24 at 1 04 01 PM](https://github.com/user-attachments/assets/41b8b82b-48bb-4c13-960a-e2b9b7c91636)
