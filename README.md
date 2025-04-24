@@ -25,7 +25,7 @@ A Streamlit-powered web research assistant that searches the internet and return
 - 📑 Extracts titles, links, and descriptions
 
 ---
-## 🔧 Architecture with ## 🛠️ Tech Stack
+## 🔧 Architecture with 🛠️ Tech Stack
 
 Below is the high-level architecture of the Web Research Agent:
 
