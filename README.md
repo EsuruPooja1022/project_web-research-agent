@@ -43,3 +43,5 @@ A Streamlit-powered web research assistant that searches the internet and return
    ```bash
    git clone https://github.com/EsuruPooja1022/project_web-research-agent.git
    cd project_web-research-agent
+![WhatsApp Image 2025-04-24 at 1 04 01 PM](https://github.com/user-attachments/assets/41b8b82b-48bb-4c13-960a-e2b9b7c91636)
+![ChatGPT Image Apr 24, 2025, 10_47_12 AM](https://github.com/user-attachments/assets/6f1a974b-e7ea-4fec-9e88-2f4b332591f7)
