@@ -1,5 +1,3 @@
-# AGENT_DOCUMENTATION.md
-
 ## 🧠 Architecture Summary
 
 The Web Research Agent consists of the following main components:
