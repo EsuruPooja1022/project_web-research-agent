@@ -25,15 +25,18 @@ A Streamlit-powered web research assistant that searches the internet and return
 - 📑 Extracts titles, links, and descriptions
 
 ---
+## 🔧 Architecture with ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
+Below is the high-level architecture of the Web Research Agent:
 
-- **Frontend**: Streamlit
-- **Backend**: Python
-- **Libraries**: 
-  - `requests`, `BeautifulSoup` (for scraping)
-  - `openai` (optional summarization)
-  - `streamlit` (for UI)
+![Architecture Diagram](path/to/your/architecture_diagram.png)
+
+- **Frontend (Streamlit)**: User interface for input and displaying results.
+- **Backend (Python)**: Handles the web search, scraping, and summarization logic.
+- **Libraries**:
+  - `requests`, `BeautifulSoup`: For scraping web content.
+  - `openai`: Optional for summarization.
+  - `streamlit`: For creating the UI.
 
 ---
 
