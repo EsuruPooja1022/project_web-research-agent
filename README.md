@@ -12,7 +12,7 @@ A Streamlit-powered web research assistant that searches the internet and return
 
 ## 📸 Demo Screenshot
 
-![Web Research Agent](https://github.com/EsuruPooja1022/project_web-research-agent/assets/![WhatsApp Image 2025-04-24 at 1 04 01 PM](https://github.com/user-attachments/assets/41b8b82b-48bb-4c13-960a-e2b9b7c91636))
+![Web Research Agent]([WhatsApp Image 2025-04-24 at 1 04 01 PM](https://github.com/user-attachments/assets/41b8b82b-48bb-4c13-960a-e2b9b7c91636))
 
 ---
 
