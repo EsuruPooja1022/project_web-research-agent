@@ -56,6 +56,20 @@ The Web Research Agent operates through the following five key modules:
    - Displays summarized results back to the user.
    - **Tools:** Streamlit
 
+## Tool I/O Description
+
+- **Scraper**
+  - Input: URL
+  - Output: Raw HTML, cleaned text
+
+- **Summarizer**
+  - Input: Cleaned text
+  - Output: Summary string
+
+- **Search Tool**
+  - Input: Query
+  - Output: Top relevant URLs
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Streamlit
