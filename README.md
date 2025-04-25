@@ -81,6 +81,15 @@ The Web Research Agent operates through the following five key modules:
 
 ---
 
+## ⚠️ Error Handling
+
+- 🔍 **Search fails** → Shows error message and prompts user to retry.
+- 🌐 **URL doesn’t load** → Displays a warning and skips that URL.
+- 📝 **Summarization fails** → Returns a default message and logs the error.
+- 🛠️ **Tool crashes** → App catches the error and continues running smoothly.
+
+---
+
 ## 🧪 How to Run Locally
 
 1. **Clone this repo**
