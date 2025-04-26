@@ -29,8 +29,16 @@ A Streamlit-powered web research assistant that searches the internet and return
 ## 🧠 Architecture Overview
 
 The Web Research Agent operates through the following five key modules:
+Stage | Description | Tools
+User Input | Streamlit form where the user enters a research query | Streamlit
+Web Search | Fetches relevant URLs based on user query | requests, Google Custom Search API (optional)
+Scraping Module | Extracts web page content | BeautifulSoup, requests
+GPT Summarization | Summarizes extracted content into concise insights | OpenAI API (GPT-4)
+Output Display | Presents summarized results | Streamlit
 
 ### 📊 Flowchart
+
+User Query ➔ Search URLs ➔ Scrape Pages ➔ Summarize Content ➔ Display Results
 
 ([Architecture Diagram](https://github.com/user-attachments/assets/ba764480-974c-4cf0-b0b1-a1a5bb1bd1ff))
 
@@ -58,17 +66,10 @@ The Web Research Agent operates through the following five key modules:
 
 ## 🧰 Tool I/O Description
 
-- 🔎 **Search Tool**
-  - **Input:** Query
-  - **Output:** Top relevant URLs
-
-- 🕷️ **Scraper**
-  - **Input:** URL
-  - **Output:** Raw HTML, cleaned text
-
-- ✂️ **Summarizer**
-  - **Input:** Cleaned text
-  - **Output:** Summary string
+Tool | Input | Output
+🔎 Search Tool | Query string | List of URLs
+🕷️ Scraper | URL | Raw HTML and Cleaned Text
+✂️ Summarizer | Cleaned Text | Summarized Insights
 
 ## 🛠️ Tech Stack
 
@@ -81,15 +82,6 @@ The Web Research Agent operates through the following five key modules:
 
 ---
 
-## ⚠️ Error Handling
-
-- 🔍 **Search fails** → Shows error message and prompts user to retry.
-- 🌐 **URL doesn’t load** → Displays a warning and skips that URL.
-- 📝 **Summarization fails** → Returns a default message and logs the error.
-- 🛠️ **Tool crashes** → App catches the error and continues running smoothly.
-
----
-
 ## 🧪 How to Run Locally
 
 1. **Clone this repo**
@@ -97,3 +89,46 @@ The Web Research Agent operates through the following five key modules:
    git clone https://github.com/EsuruPooja1022/project_web-research-agent.git
    cd project_web-research-agent
 
+2. **Install dependencies**
+    ```bash
+   pip install -r requirements.txt
+
+3. **Run the application**
+   ```bash
+   streamlit run app.py
+
+---
+
+## 🔥 Example Queries
+You can try entering queries like:
+
+- "Latest trends in artificial intelligence 2025"
+- "Top 10 electric car companies in 2024"
+- "History of the Silk Road trade route"
+- "Best practices for remote working"
+- "Recent breakthroughs in cancer research"
+
+The agent will search the web, extract information, and present easy-to-read summarized results.
+
+---
+
+## ⚠️ Error Handling
+
+Situation | Handling
+Search fails | Displays error message and suggests retrying
+URL doesn't load | Skips that URL and continues processing
+Summarization fails | Shows default fallback message
+Unexpected tool crash | App gracefully catches error and keeps running
+
+---
+
+## 📜 License
+
+- This project is licensed under the MIT License.
+- Feel free to use, modify, and distribute with attribution.
+
+---
+
+✉️ Contact
+Maintained by [Esuru Pooja.C].
+For any questions, reach out to: [e20esurupooja@gmail.com]
